@@ -13,7 +13,7 @@ redirect_from:
 
 <div class="lang-en" markdown="1">
 
-Hello! This is Zhifu Wei (<span class="zh-inline">魏智富</span> in Chinese). I am an undergraduate student at the [School of Computer Science and Engineering](https://scse.neu.edu.cn/) of [Northeastern University](https://www.neu.edu.cn/), Shenyang, China. I am fortunate to be advised by [Prof. Guibing Guo](https://guibingguo.github.io/), with whom I work on sequential recommendation and long-tail recommendation. I am also honored to collaborate with [Prof. Lequan Yu](https://yu-lab.github.io/) at The University of Hong Kong on computer-use agents for clinical workflows.
+Hello! This is Zhifu Wei (<span class="zh-inline">魏智富</span> in Chinese). I am an undergraduate student at the [School of Computer Science and Engineering](https://scse.neu.edu.cn/) of [Northeastern University](https://www.neu.edu.cn/), Shenyang, China. I am fortunate to be advised by [Prof. Guibing Guo](https://guibingguo.github.io/), with whom I work on sequential recommendation and long-tail recommendation.
 
 My research interests focus on **large language models (LLMs)**, **AI agents**, and **recommender systems**. I am particularly interested in how LLMs can strengthen the representation of sparse (tail) items in sequential recommendation, and how multimodal agents can safely and reliably operate in real-world workflows.
 
@@ -23,7 +23,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 <div class="lang-zh" markdown="1">
 
-你好！我是[魏智富](https://zhifuwei.github.io/)，目前是[东北大学](https://www.neu.edu.cn/)[计算机科学与工程学院](https://scse.neu.edu.cn/)本科生，现居沈阳。我很荣幸师从[郭贵冰教授](https://guibingguo.github.io/)，从事序列推荐与长尾推荐方向的研究。同时，我也与香港大学的[于乐全教授](https://yu-lab.github.io/)合作，开展医疗工作流中计算机操作智能体的研究。
+你好！我是[魏智富](https://zhifuwei.github.io/)，目前是[东北大学](https://www.neu.edu.cn/)[计算机科学与工程学院](https://scse.neu.edu.cn/)本科生，现居沈阳。我很荣幸师从[郭贵冰教授](https://guibingguo.github.io/)，从事序列推荐与长尾推荐方向的研究。
 
 我的研究兴趣集中在**大语言模型（LLM）**、**AI Agent** 与**推荐系统**。我特别关注如何利用大语言模型增强序列推荐中长尾物品的表示质量，以及多模态智能体如何在真实工作流中安全可靠地运作。
 
@@ -122,9 +122,6 @@ Please feel free to contact me by email if you have any questions or are seeking
 # 🏆 Honors and Awards
 
 - *2026.01*: &nbsp;🏅 Full Travel Scholarship, AAAI-26 Undergraduate Consortium (AAAI-UC)
-- *2025.12*: &nbsp;🏅 National Encouragement Scholarship
-- *2025.11*: &nbsp;🥇 First Prize (Liaoning Province), China Undergraduate Mathematical Contest in Modeling (CUMCM)
-- *2025.05*: &nbsp;🏅 Honorable Mention, Mathematical Contest in Modeling (MCM)
 
 </div>
 
@@ -133,9 +130,6 @@ Please feel free to contact me by email if you have any questions or are seeking
 # 🏆 荣誉奖励
 
 - *2026.01*: &nbsp;🏅 AAAI-26 本科生联盟（AAAI-UC）全额差旅奖学金
-- *2025.12*: &nbsp;🏅 国家励志奖学金
-- *2025.11*: &nbsp;🥇 全国大学生数学建模竞赛（CUMCM）辽宁省一等奖
-- *2025.05*: &nbsp;🏅 美国大学生数学建模竞赛（MCM）Honorable Mention
 
 </div>
 
@@ -146,23 +140,16 @@ Please feel free to contact me by email if you have any questions or are seeking
 # 💼 Research Experience
 
 - **LLM-Enhanced Tail-Item Sequential Recommendation (FAERec)** — *Nov. 2025 – Jan. 2026*
-  - Research Assistant, advised by Prof. Guibing Guo, Northeastern University
-  - Proposed dimension-wise adaptive gating to dynamically fuse collaborative ID embeddings with LLM-derived semantic representations, strengthening representations of tail items with sparse interaction histories.
-  - Developed dual-level alignment: item-level contrastive learning plus a feature-level Barlow Twins objective for structural consistency between embedding spaces.
-  - Designed a curriculum-learning strategy with cosine-annealed loss weights for progressive alignment.
-  - Achieved average gains of **86.64% in Hit@10** and **87.72% in NDCG@10** for tail-item recommendation with SASRec as the backbone.
+  - Research Assistant, advised by Prof. Guibing Guo
+  - Proposed FAERec, which adaptively fuses collaborative ID embeddings with LLM-derived semantics via gating and dual-level alignment, improving tail-item Hit@10 by **86.64%** and NDCG@10 by **87.72%**.
 
 - **Data Augmentation for Long-Tail Recommendation (TADA)** — *Aug. 2025 – Oct. 2025*
-  - Research Assistant, advised by Prof. Guibing Guo, Northeastern University
-  - Built a lightweight linear item-item similarity model to precompute correlation scores and co-occurrence candidate sets for efficient sequence augmentation.
-  - Designed two tail-aware operators, T-Substitute and T-Insert, followed by representation-level mixup to preserve preference signals of original sequences.
-  - Introduced cross-sequence mixup by grouping sequences according to users' tail-item preferences, achieving Hit@10 improvements of **30.4% for tail users** and **51.5% for tail items** across three Amazon datasets.
+  - Research Assistant, advised by Prof. Guibing Guo
+  - Designed TADA with tail-aware augmentation operators (T-Substitute / T-Insert) and cross-sequence mixup, improving Hit@10 by **30.4%** for tail users and **51.5%** for tail items.
 
 - **Computer-Use Agents in Clinical Workflows (OS-MedWorld)** — *Feb. 2026 – May 2026*
   - Research Assistant, advised by Prof. Lequan Yu, The University of Hong Kong
-  - Built a resettable clinical sandbox integrating OpenEMR, Orthanc, QuPath, and 3D Slicer, supporting interaction through GUI, MCP, API, and CLI interfaces.
-  - Designed 180 clinically grounded tasks spanning atomic, multi-step, and safety-critical workflows, each paired with deterministic initial states and executable evaluators.
-  - Benchmarked frontier VLM agents and analyzed major failure modes in risk recognition and long-horizon execution.
+  - Built OS-MedWorld, a resettable clinical sandbox with 180 executable tasks, and benchmarked frontier VLM agents on safety recognition and multi-step execution.
 
 </div>
 
@@ -171,23 +158,16 @@ Please feel free to contact me by email if you have any questions or are seeking
 # 💼 科研经历
 
 - **基于大语言模型的长尾序列推荐（FAERec）** — *2025.11 – 2026.01*
-  - 研究助理，导师：郭贵冰教授，东北大学
-  - 提出维度级自适应门控机制，动态融合协同 ID 嵌入与 LLM 语义表示，增强交互稀疏的长尾物品表征质量。
-  - 设计双层次对齐：物品级对比学习对齐单个 ID 与语义嵌入，特征级 Barlow Twins 目标保持两个嵌入空间的结构一致性。
-  - 采用余弦退火调度策略渐进式平衡两层对齐损失，避免过早引入特征级对齐带来的优化困难。
-  - 以 SASRec 为骨干模型，长尾物品推荐的 Hit@10 平均提升 **86.64%**，NDCG@10 平均提升 **87.72%**。
+  - 研究助理，导师：郭贵冰教授
+  - 提出 FAERec，通过门控机制与双层次对齐自适应融合协同 ID 嵌入与 LLM 语义表示，长尾物品推荐 Hit@10 提升 **86.64%**、NDCG@10 提升 **87.72%**。
 
 - **长尾推荐的数据增强（TADA）** — *2025.08 – 2025.10*
-  - 研究助理，导师：郭贵冰教授，东北大学
-  - 构建轻量级线性物品相似性模型，预计算物品相关性与共现候选集，实现高效的序列增强。
-  - 设计 T-Substitute 与 T-Insert 两种尾部感知增强算子，并结合表示级 mixup 保留原始序列的偏好信号。
-  - 提出基于用户尾部偏好的跨序列 mixup，在三个 Amazon 数据集上使长尾用户 Hit@10 提升 **30.4%**、长尾物品提升 **51.5%**。
+  - 研究助理，导师：郭贵冰教授
+  - 设计 TADA，包含 T-Substitute / T-Insert 尾部感知增强算子与跨序列 mixup，长尾用户 Hit@10 提升 **30.4%**、长尾物品提升 **51.5%**。
 
 - **医疗工作流中的计算机操作智能体（OS-MedWorld）** — *2026.02 – 2026.05*
   - 研究助理，导师：于乐全教授，香港大学
-  - 搭建集成 OpenEMR、Orthanc、QuPath、3D Slicer 的可重置临床沙盒，支持 GUI、MCP、API、CLI 多种交互接口。
-  - 设计原子、多步、安全关键三类共 180 个临床任务，每个任务配备确定性初始状态与可执行评测规则。
-  - 评测前沿视觉语言智能体，分析其在风险识别与长程执行中的主要失败模式。
+  - 搭建 OS-MedWorld 可重置临床沙盒，含 180 个可执行任务，并评测前沿视觉语言智能体的风险识别与多步执行能力。
 
 </div>
 
