@@ -137,17 +137,13 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 # 💼 Research Experience
 
-- **LLM-Enhanced Tail-Item Sequential Recommendation (FAERec)** — *Nov. 2025 – Jan. 2026*
+- **Research on Long-Tail Recommendation** — *Aug. 2025 – Jan. 2026*
   - Research Assistant, advised by Prof. Guibing Guo
-  - Proposed FAERec, which adaptively fuses collaborative ID embeddings with LLM-derived semantics via gating and dual-level alignment, improving tail-item Hit@10 by **86.64%** and NDCG@10 by **87.72%**.
-
-- **Data Augmentation for Long-Tail Recommendation (TADA)** — *Aug. 2025 – Oct. 2025*
-  - Research Assistant, advised by Prof. Guibing Guo
-  - Designed TADA with tail-aware augmentation operators (T-Substitute / T-Insert) and cross-sequence mixup, improving Hit@10 by **30.4%** for tail users and **51.5%** for tail items.
+  - Investigated representation learning and data augmentation for long-tail sequential recommendation, co-authoring two papers accepted at top conferences: **FAERec** (SIGIR 2026), which combines collaborative signals with LLM-derived semantics to better represent sparse tail items, and **TADA** (WWW 2026), a tail-aware data augmentation framework for sparse user-item interactions.
 
 - **Computer-Use Agents in Clinical Workflows (OS-MedWorld)** — *Feb. 2026 – May 2026*
   - Research Assistant, advised by Prof. Lequan Yu, The University of Hong Kong
-  - Built OS-MedWorld, a resettable clinical sandbox with 180 executable tasks, and benchmarked frontier VLM agents on safety recognition and multi-step execution.
+  - Built OS-MedWorld, a realistic and resettable clinical benchmark for computer-use agents, and evaluated frontier VLM agents on risk recognition and multi-step task execution.
 
 </div>
 
@@ -155,17 +151,13 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 # 💼 科研经历
 
-- **基于大语言模型的长尾序列推荐（FAERec）** — *2025.11 – 2026.01*
+- **长尾推荐研究（FAERec & TADA）** — *2025.08 – 2026.01*
   - 研究助理，导师：郭贵冰教授
-  - 提出 FAERec，通过门控机制与双层次对齐自适应融合协同 ID 嵌入与 LLM 语义表示，长尾物品推荐 Hit@10 提升 **86.64%**、NDCG@10 提升 **87.72%**。
-
-- **长尾推荐的数据增强（TADA）** — *2025.08 – 2025.10*
-  - 研究助理，导师：郭贵冰教授
-  - 设计 TADA，包含 T-Substitute / T-Insert 尾部感知增强算子与跨序列 mixup，长尾用户 Hit@10 提升 **30.4%**、长尾物品提升 **51.5%**。
+  - 研究长尾序列推荐的表示学习与数据增强，作为主要贡献者参与两项被顶级会议接收的工作：**FAERec**（SIGIR 2026），融合协同信号与 LLM 语义以增强稀疏长尾物品的表示；**TADA**（WWW 2026），面向稀疏交互的尾部感知数据增强框架。
 
 - **医疗工作流中的计算机操作智能体（OS-MedWorld）** — *2026.02 – 2026.05*
   - 研究助理，导师：于乐全教授，香港大学
-  - 搭建 OS-MedWorld 可重置临床沙盒，含 180 个可执行任务，并评测前沿视觉语言智能体的风险识别与多步执行能力。
+  - 搭建 OS-MedWorld 可重置临床基准环境，评测前沿视觉语言智能体在风险识别与多步任务执行中的表现。
 
 </div>
 
