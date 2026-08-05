@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhifu Wei"
+title                    : "Zhifu Wei (魏智富)"
 description              : "Zhifu Wei's academic homepage - research on large language models, AI agents, and recommender systems."
 repository               : "ZhifuWei/ZhifuWei.github.io"
 google_scholar_stats_use_cdn : true
@@ -22,9 +22,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhifu Wei"
-  avatar           : "images/android-chrome-512x512.png"
+  name_zh          : "魏智富"
+  avatar           : "images/profile.png"
   bio              : "Undergraduate researcher in AI agents, LLMs, and recommender systems."
+  bio_zh           : "东北大学计算机科学与技术专业本科生，研究方向为 AI Agent、大语言模型与推荐系统。"
   location         : "Shenyang, China"
+  location_zh      : "中国沈阳"
   employer         : "Northeastern University"
   pubmed           : 
   googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"

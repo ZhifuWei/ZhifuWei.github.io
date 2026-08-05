@@ -8,16 +8,222 @@
 <meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="assets/css/academicons.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap">
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
+<style>
+  .lang-zh {
+    display: none;
+  }
+
+  html[lang="zh"] .lang-en {
+    display: none !important;
+  }
+
+  html[lang="zh"] .lang-zh {
+    display: inline;
+  }
+
+  html[lang="zh"] div.lang-zh,
+  html[lang="zh"] section.lang-zh,
+  html[lang="zh"] ul.lang-zh,
+  html[lang="zh"] li.lang-zh,
+  html[lang="zh"] p.lang-zh,
+  html[lang="zh"] h1.lang-zh,
+  html[lang="zh"] h2.lang-zh,
+  html[lang="zh"] h3.lang-zh,
+  html[lang="zh"] h4.lang-zh,
+  html[lang="zh"] h5.lang-zh,
+  html[lang="zh"] h6.lang-zh,
+  html[lang="zh"] span.lang-zh {
+    display: block;
+  }
+
+  html[lang="zh"] a .lang-zh,
+  html[lang="zh"] li .lang-zh,
+  html[lang="zh"] h1 .lang-zh,
+  html[lang="zh"] h2 .lang-zh,
+  html[lang="zh"] h3 .lang-zh {
+    display: inline;
+  }
+
+  html[lang="en"] body,
+  html[lang="en"] button,
+  html[lang="en"] input,
+  html[lang="en"] textarea,
+  html[lang="en"] select {
+    font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  }
+
+  html[lang="en"] .masthead,
+  html[lang="en"] .author__name,
+  html[lang="en"] h1,
+  html[lang="en"] h2,
+  html[lang="en"] h3,
+  html[lang="en"] h4,
+  html[lang="en"] h5,
+  html[lang="en"] h6,
+  html[lang="en"] .greedy-nav a,
+  html[lang="en"] .btn {
+    font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  }
+
+  html[lang="en"] .author__bio,
+  html[lang="en"] .author__urls-wrapper,
+  html[lang="en"] .author__urls,
+  html[lang="en"] .author__urls li,
+  html[lang="en"] .author__urls a {
+    font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  }
+
+  html[lang="zh"] body,
+  html[lang="zh"] button,
+  html[lang="zh"] input,
+  html[lang="zh"] textarea,
+  html[lang="zh"] select,
+  html[lang="zh"] .greedy-nav a,
+  html[lang="zh"] .author__name,
+  html[lang="zh"] h1,
+  html[lang="zh"] h2,
+  html[lang="zh"] h3,
+  html[lang="zh"] h4,
+  html[lang="zh"] h5,
+  html[lang="zh"] h6 {
+    font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  }
+
+  html[lang="zh"] .author__bio,
+  html[lang="zh"] .author__urls-wrapper,
+  html[lang="zh"] .author__urls,
+  html[lang="zh"] .author__urls li,
+  html[lang="zh"] .author__urls a {
+    font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .zh-inline {
+    font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  }
+
+  .masthead__menu-item--lang a {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #d8e0ea;
+    border-radius: 999px;
+    padding: 0.22em 0.82em;
+    background: #f6f9fc;
+    color: #667a91 !important;
+    font-size: 0.92em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.15;
+    box-shadow: 0 1px 2px rgba(74, 93, 117, 0.05);
+    transition: background-color 0.2s ease, border-color 0.2s ease,
+      color 0.2s ease, box-shadow 0.2s ease, transform 0.24s ease;
+  }
+
+  .masthead__menu-item--lang a:hover,
+  .masthead__menu-item--lang a:focus {
+    background: #edf4fa;
+    border-color: #c6d3e1;
+    color: #4f667f !important;
+    box-shadow: 0 2px 5px rgba(74, 93, 117, 0.08);
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+
+  .projects-container {
+    position: relative;
+  }
+
+  .masthead,
+  #main {
+    will-change: opacity, transform;
+    backface-visibility: hidden;
+    transform-origin: 50% 0;
+    transition: opacity 0.22s cubic-bezier(0.32, 0.72, 0, 1),
+      transform 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  body.lang-transitioning .masthead__menu-item--lang a {
+    background: #eaf2fb;
+    border-color: #bfd1e4;
+    color: #3d5877 !important;
+    box-shadow: 0 6px 18px rgba(74, 93, 117, 0.12);
+  }
+
+  body.lang-switching .masthead,
+  body.lang-switching #main {
+    opacity: 0;
+    transform: none;
+    pointer-events: none;
+  }
+
+  @keyframes lang-content-out {
+    from {
+      opacity: 1;
+      transform: none;
     }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    to {
+      opacity: 0;
+      transform: none;
+    }
+  }
+
+  @keyframes lang-content-in {
+    from {
+      opacity: 0;
+      transform: none;
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @supports (view-transition-name: none) {
+    .masthead {
+      view-transition-name: lang-masthead;
+    }
+
+    #main {
+      view-transition-name: lang-main;
+    }
+
+    ::view-transition-old(lang-masthead),
+    ::view-transition-old(lang-main) {
+      animation: lang-content-out 180ms cubic-bezier(0.4, 0, 1, 1) both;
+    }
+
+    ::view-transition-new(lang-masthead),
+    ::view-transition-new(lang-main) {
+      animation: lang-content-in 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .masthead,
+    #main,
+    .masthead__menu-item--lang a {
+      transition: none;
+    }
+
+    body.lang-switching .masthead,
+    body.lang-switching #main {
+      opacity: 1;
+      transform: none;
+    }
+
+    @supports (view-transition-name: none) {
+      ::view-transition-old(lang-masthead),
+      ::view-transition-old(lang-main),
+      ::view-transition-new(lang-masthead),
+      ::view-transition-new(lang-main) {
+        animation: none;
+      }
+    }
+  }
+</style>
 
 <!-- end custom head snippets -->

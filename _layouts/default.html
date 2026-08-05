@@ -7,6 +7,35 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+     <style>
+    .projects-box {
+      /* background-color: green; */
+      height: 180px;
+      position: relative;
+      overflow: hidden;
+      transition: all ease-in .1s;
+
+    }
+    .projects-show {
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      text-align: center;
+      height: 30px;
+      line-height: 30px;
+      width: 100%;
+      font-size: 12px;
+      color: #0067c8;
+      cursor: pointer;
+      background: linear-gradient(to bottom, transparent, #fff 55%, #fff 100%);
+    }
+    .projects-show-text {
+      position: relative;
+      top: 10px;
+    }
+  </style>
   </head>
 
   <body>
@@ -26,8 +55,107 @@ layout: compress
         </div>
       </article>
     </div>
-
     {% include scripts.html %}
 
+          <script>
+          function setSiteLanguage(lang) {
+            document.documentElement.lang = lang === 'zh' ? 'zh' : 'en';
+          }
+
+          const LANG_SWITCH_OUT_MS = 180;
+          const LANG_SWITCH_IN_MS = 420;
+          let isSwitchingLanguage = false;
+
+          function runFallbackLanguageTransition(nextLang) {
+            document.body.classList.add('lang-transitioning', 'lang-switching');
+
+            window.setTimeout(function() {
+              setSiteLanguage(nextLang);
+
+              window.requestAnimationFrame(function() {
+                window.requestAnimationFrame(function() {
+                  document.body.classList.remove('lang-switching');
+
+                  window.setTimeout(function() {
+                    document.body.classList.remove('lang-transitioning');
+                    isSwitchingLanguage = false;
+                  }, LANG_SWITCH_IN_MS);
+                });
+              });
+            }, LANG_SWITCH_OUT_MS);
+          }
+
+          function toggleSiteLanguage() {
+            if (isSwitchingLanguage) {
+              return;
+            }
+
+            const nextLang = document.documentElement.lang === 'zh' ? 'en' : 'zh';
+            const prefersReducedMotion = window.matchMedia &&
+              window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            isSwitchingLanguage = true;
+
+            if (prefersReducedMotion) {
+              setSiteLanguage(nextLang);
+              isSwitchingLanguage = false;
+              return;
+            }
+
+            if (document.startViewTransition) {
+              document.body.classList.add('lang-transitioning');
+
+              const transition = document.startViewTransition(function() {
+                setSiteLanguage(nextLang);
+              });
+
+              transition.finished.finally(function() {
+                document.body.classList.remove('lang-transitioning');
+                isSwitchingLanguage = false;
+              });
+
+              return;
+            }
+
+            runFallbackLanguageTransition(nextLang);
+          }
+
+          document.querySelectorAll('.projects-container').forEach(function(container) {
+            const box = container.querySelector('.projects-box');
+            const trigger = container.querySelector('.projects-show');
+            const text = container.querySelector('.projects-show-text');
+            const lang = container.dataset.lang === 'zh' ? 'zh' : 'en';
+            const labels = lang === 'zh'
+              ? { more: '更多', less: '收起' }
+              : { more: 'More', less: 'Less' };
+            let expanded = false;
+
+            if (!box || !trigger || !text) {
+              return;
+            }
+
+            function render() {
+              box.style.height = expanded ? 'auto' : '180px';
+              box.style.paddingBottom = expanded ? '20px' : '0px';
+              text.innerHTML = expanded ? labels.less : labels.more;
+            }
+
+            render();
+            trigger.onclick = function() {
+              expanded = !expanded;
+              render();
+            };
+          });
+
+          const langToggle = document.querySelector('#lang-toggle');
+          if (langToggle) {
+            langToggle.onclick = function(event) {
+              event.preventDefault();
+              toggleSiteLanguage();
+            };
+          }
+        </script>
   </body>
+
 </html>
+
