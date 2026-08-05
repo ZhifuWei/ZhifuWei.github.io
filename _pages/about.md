@@ -25,7 +25,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 你好！我是[魏智富](https://zhifuwei.github.io/)，目前是[东北大学](https://www.neu.edu.cn/)[计算机科学与工程学院](https://scse.neu.edu.cn/)本科生，现居沈阳。我很荣幸师从[郭贵冰教授](https://guibingguo.github.io/)，从事序列推荐与长尾推荐方向的研究。
 
-我的研究兴趣集中在**大语言模型（LLM）**、**AI Agent** 与**推荐系统**。我特别关注如何利用大语言模型增强序列推荐中长尾物品的表示质量，以及多模态智能体如何在真实工作流中安全可靠地运作。
+我的研究兴趣集中在**大语言模型（LLM）**、**AI Agent** 与**推荐系统**。我特别关注如何利用大语言模型增强序列推荐中长尾物品的表征质量，以及多模态智能体如何在真实工作流中安全可靠地运作。
 
 如果你对我的研究感兴趣，或希望开展交流与合作，欢迎通过邮件与我联系。
 
@@ -37,9 +37,9 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 # 🔥 News
 
-- *2026.01*: &nbsp;🎉 Our paper on LLM-enhanced tail-item sequential recommendation (**FAERec**) was accepted by **SIGIR 2026**.
+- *2026.01*: &nbsp;🎉 Our paper on LLM-enhanced tail-item sequential recommendation (**FAERec**) was accepted at **SIGIR 2026**.
 - *2026.01*: &nbsp;🏅 I am honored to receive the full travel scholarship for the **AAAI-26 Undergraduate Consortium**.
-- *2025.11*: &nbsp;🎉 Our paper on tail-aware data augmentation (**TADA**) was accepted by **WWW 2026**.
+- *2025.11*: &nbsp;🎉 Our paper on tail-aware data augmentation (**TADA**) was accepted at **WWW 2026**.
 
 </div>
 
@@ -63,11 +63,11 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 - [Fusion and Alignment Enhancement with Large Language Models for Tail-item Sequential Recommendation](https://arxiv.org/abs/2604.03688)  
   **Zhifu Wei**, Yizhou Dang, Guibing Guo<sup>&dagger;</sup>, Chuang Zhao, Zhu Sun<sup>&dagger;</sup>  
-  *International ACM SIGIR Conference on Research and Development in Information Retrieval (**SIGIR**), 2026* · [Code](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
+  *International ACM SIGIR Conference on Research and Development in Information Retrieval (**SIGIR 2026**)* · [Code](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
 
 - [TADA: Tail-Aware Data Augmentation for Long-Tail Sequential Recommendation](https://arxiv.org/abs/2601.10933)  
   Yizhou Dang, **Zhifu Wei**, Minhan Huang, Lianbo Ma, Jianzhe Zhao, Guibing Guo<sup>&dagger;</sup>, Xingwei Wang<sup>&dagger;</sup>  
-  *The Web Conference (**WWW**), 2026* · [Code](https://github.com/KingGugu/TADA) · [arXiv](https://arxiv.org/abs/2601.10933)
+  *The ACM Web Conference (**WWW 2026**)* · [Code](https://github.com/KingGugu/TADA) · [arXiv](https://arxiv.org/abs/2601.10933)
 
 - A Realistic Benchmark for Multi-Interface Safety-Aware Computer-Use Agents in Clinical Workflows  
   Yushi Feng, **Zhifu Wei**, Ziyi He, Pui Hang Leung, Peixiang Huang, Yunhai Wang, Weifa Yang, Lequan Yu  
@@ -83,11 +83,11 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 - [基于大语言模型融合与对齐增强的长尾序列推荐](https://arxiv.org/abs/2604.03688)  
   **魏智富**，党翌洲，郭贵冰<sup>&dagger;</sup>，赵闯，朱顺<sup>&dagger;</sup>  
-  *ACM SIGIR 国际信息检索大会（**SIGIR**），2026* · [代码](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
+  *ACM SIGIR 国际信息检索大会（**SIGIR 2026**）* · [代码](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
 
 - [TADA：面向长尾序列推荐的尾部感知数据增强](https://arxiv.org/abs/2601.10933)  
   党翌洲，**魏智富**，黄敏涵，马连博，赵健哲，郭贵冰<sup>&dagger;</sup>，王兴伟<sup>&dagger;</sup>  
-  *The Web Conference（**WWW**），2026* · [代码](https://github.com/KingGugu/TADA) · [arXiv](https://arxiv.org/abs/2601.10933)
+  *The ACM Web Conference（**WWW 2026**）* · [代码](https://github.com/KingGugu/TADA) · [arXiv](https://arxiv.org/abs/2601.10933)
 
 - 医疗工作流中面向多接口的安全感知计算机操作智能体基准  
   冯煜石，**魏智富**，何子怡，Pui Hang Leung，黄培轩，王云海，杨威法，于乐全  
@@ -95,13 +95,13 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 </div>
 
-<span class='anchor' id='educations'></span>
+<span class='anchor' id='education'></span>
 
 <div class="lang-en" markdown="1">
 
-# 📖 Educations
+# 📖 Education
 
-- *2023.09 - 2027.06 (Expected)*, B.E. in Computer Science and Technology, Northeastern University, Shenyang, China.
+- *Sep. 2023 – Jun. 2027 (Expected)*, B.E. in Computer Science and Technology, Northeastern University, Shenyang, China.
 
 </div>
 
@@ -109,7 +109,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 # 📖 教育经历
 
-- *2023.09 - 2027.06（预计）*，东北大学计算机科学与技术专业工学学士，沈阳，中国。
+- *2023.09 – 2027.06（预计）*，东北大学计算机科学与技术专业工学学士，沈阳，中国。
 
 </div>
 
@@ -153,7 +153,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 - **长尾推荐研究（FAERec & TADA）** — *2025.08 – 2026.01*
   - 研究助理，导师：郭贵冰教授
-  - 研究长尾序列推荐的表示学习与数据增强，作为主要贡献者参与两项被顶级会议接收的工作：**FAERec**（SIGIR 2026），融合协同信号与 LLM 语义以增强稀疏长尾物品的表示；**TADA**（WWW 2026），面向稀疏交互的尾部感知数据增强框架。
+  - 研究长尾序列推荐的表示学习与数据增强，作为主要贡献者参与两项被顶级会议接收的工作：**FAERec**（SIGIR 2026），融合协同信号与 LLM 语义以增强稀疏长尾物品的表征；**TADA**（WWW 2026），面向稀疏交互的尾部感知数据增强框架。
 
 - **医疗工作流中的计算机操作智能体（OS-MedWorld）** — *2026.02 – 2026.05*
   - 研究助理，导师：于乐全教授，香港大学
@@ -161,21 +161,21 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 </div>
 
-<span class='anchor' id='invited-talks'></span>
+<span class='anchor' id='conference-participation'></span>
 
 <div class="lang-en" markdown="1">
 
-# 💬 Invited Talks
+# 🎤 Conference Participation
 
-- *2026.01*: &nbsp;Presented at the AAAI-26 Undergraduate Consortium (supported by full travel scholarship).
+- *2026.01*: &nbsp;Presented at the AAAI-26 Undergraduate Consortium (full travel scholarship).
 
 </div>
 
 <div class="lang-zh" markdown="1">
 
-# 💬 受邀参会
+# 🎤 参会经历
 
-- *2026.01*: &nbsp;参加 AAAI-26 本科生联盟并作报告（获全额差旅资助）。
+- *2026.01*: &nbsp;参加 AAAI-26 本科生联盟并作报告（全额差旅资助）。
 
 </div>
 

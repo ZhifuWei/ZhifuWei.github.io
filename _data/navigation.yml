@@ -9,8 +9,8 @@ main_en:
   - title: "Publications"
     url: "#publications"
 
-  - title: "Educations"
-    url: "#educations"
+  - title: "Education"
+    url: "#education"
 
   - title: "Honors and Awards"
     url: "#honors-and-awards"
@@ -29,7 +29,7 @@ main_zh:
     url: "#publications"
 
   - title: "教育经历"
-    url: "#educations"
+    url: "#education"
 
   - title: "荣誉奖励"
     url: "#honors-and-awards"
