@@ -38,7 +38,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 # 🔥 News
 
 - *2026.01*: &nbsp;🎉 Our paper on LLM-enhanced tail-item sequential recommendation (**FAERec**) was accepted by **SIGIR 2026**.
-- *2026.01*: &nbsp;🏅 I'm honored to receive the full travel scholarship for the **AAAI-26 Undergraduate Consortium**.
+- *2026.01*: &nbsp;🏅 I am honored to receive the full travel scholarship for the **AAAI-26 Undergraduate Consortium**.
 - *2025.11*: &nbsp;🎉 Our paper on tail-aware data augmentation (**TADA**) was accepted by **WWW 2026**.
 
 </div>
