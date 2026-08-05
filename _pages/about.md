@@ -102,7 +102,6 @@ Please feel free to contact me by email if you have any questions or are seeking
 # 📖 Educations
 
 - *2023.09 - 2027.06 (Expected)*, B.E. in Computer Science and Technology, Northeastern University, Shenyang, China.
-  - GPA: 4.13/5.00 (top 9%, 20/213) · CET-6: 516
 
 </div>
 
@@ -111,7 +110,6 @@ Please feel free to contact me by email if you have any questions or are seeking
 # 📖 教育经历
 
 - *2023.09 - 2027.06（预计）*，东北大学计算机科学与技术专业工学学士，沈阳，中国。
-  - GPA：4.13/5.00（前 9%，专业排名 20/213）· 英语六级 516
 
 </div>
 
