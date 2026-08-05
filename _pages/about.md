@@ -37,7 +37,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 # 🔥 News
 
-- *2026.01*: &nbsp;🎉 Our paper on LLM-enhanced tail-item sequential recommendation (**FAERec**) was accepted by **SIGIR 2026** as an oral presentation.
+- *2026.01*: &nbsp;🎉 Our paper on LLM-enhanced tail-item sequential recommendation (**FAERec**) was accepted by **SIGIR 2026**.
 - *2026.01*: &nbsp;🏅 I'm honored to receive the full travel scholarship for the **AAAI-26 Undergraduate Consortium**.
 - *2025.11*: &nbsp;🎉 Our paper on tail-aware data augmentation (**TADA**) was accepted by **WWW 2026**.
 
@@ -47,7 +47,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 # 🔥 新闻
 
-- *2026.01*: &nbsp;🎉 我们基于大语言模型的长尾序列推荐论文（**FAERec**）被 **SIGIR 2026** 接收（Oral）。
+- *2026.01*: &nbsp;🎉 我们基于大语言模型的长尾序列推荐论文（**FAERec**）被 **SIGIR 2026** 接收。
 - *2026.01*: &nbsp;🏅 我很荣幸获得 **AAAI-26 本科生联盟**全额差旅奖学金。
 - *2025.11*: &nbsp;🎉 我们基于尾部感知数据增强的论文（**TADA**）被 **WWW 2026** 接收。
 
@@ -63,7 +63,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 - [Fusion and Alignment Enhancement with Large Language Models for Tail-item Sequential Recommendation](https://arxiv.org/abs/2604.03688)  
   **Zhifu Wei**, Yizhou Dang, Guibing Guo<sup>&dagger;</sup>, Chuang Zhao, Zhu Sun<sup>&dagger;</sup>  
-  *International ACM SIGIR Conference on Research and Development in Information Retrieval (**SIGIR**, **<font color="red">Oral</font>**), 2026* · [Code](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
+  *International ACM SIGIR Conference on Research and Development in Information Retrieval (**SIGIR**), 2026* · [Code](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
 
 - [TADA: Tail-Aware Data Augmentation for Long-Tail Sequential Recommendation](https://arxiv.org/abs/2601.10933)  
   Yizhou Dang, **Zhifu Wei**, Minhan Huang, Lianbo Ma, Jianzhe Zhao, Guibing Guo<sup>&dagger;</sup>, Xingwei Wang<sup>&dagger;</sup>  
@@ -83,7 +83,7 @@ Please feel free to contact me by email if you have any questions or are seeking
 
 - [基于大语言模型融合与对齐增强的长尾序列推荐](https://arxiv.org/abs/2604.03688)  
   **魏智富**，党翌洲，郭贵冰<sup>&dagger;</sup>，赵闯，朱顺<sup>&dagger;</sup>  
-  *ACM SIGIR 国际信息检索大会（**SIGIR**，**<font color="red">Oral</font>**），2026* · [代码](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
+  *ACM SIGIR 国际信息检索大会（**SIGIR**），2026* · [代码](https://github.com/ZhifuWei/FAERec) · [arXiv](https://arxiv.org/abs/2604.03688)
 
 - [TADA：面向长尾序列推荐的尾部感知数据增强](https://arxiv.org/abs/2601.10933)  
   党翌洲，**魏智富**，黄敏涵，马连博，赵健哲，郭贵冰<sup>&dagger;</sup>，王兴伟<sup>&dagger;</sup>  
