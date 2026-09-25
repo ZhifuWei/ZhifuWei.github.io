@@ -12,9 +12,6 @@ main_en:
   - title: "Education"
     url: "#education"
 
-  - title: "Honors and Awards"
-    url: "#honors-and-awards"
-
   - title: "Research Experience"
     url: "#research-experience"
 
@@ -30,9 +27,6 @@ main_zh:
 
   - title: "教育经历"
     url: "#education"
-
-  - title: "荣誉奖励"
-    url: "#honors-and-awards"
 
   - title: "科研经历"
     url: "#research-experience"

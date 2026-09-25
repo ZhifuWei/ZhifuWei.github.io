@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhifu Wei (魏智富)"
-description              : "Zhifu Wei's academic homepage – research on large language models, AI agents, and recommender systems."
+description              : ""
 repository               : "ZhifuWei/ZhifuWei.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,11 +24,11 @@ author:
   name             : "Zhifu Wei"
   name_zh          : "魏智富"
   avatar           : "images/profile.png"
-  bio              : "Undergraduate researcher in AI agents, LLMs, and recommender systems."
-  bio_zh           : "东北大学计算机科学与技术专业本科生，研究方向为 AI Agent、大语言模型与推荐系统。"
-  location         : "Shenyang, China"
-  location_zh      : "中国沈阳"
-  employer         : "Northeastern University"
+  bio              : "An incoming Ph.D. student at USTC in a five-year program. Focusing on recommender systems, LLMs, and AI agents."
+  bio_zh           : "中国科学技术大学2027级博士生（五年制，即将入学），研究兴趣为推荐系统、大语言模型与智能体。"
+  location         : "Hefei, China"
+  location_zh      : "中国合肥"
+  employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=WQxSnRwAAAAJ&hl=en"
   email            : "weizf@mails.neu.edu.cn"
